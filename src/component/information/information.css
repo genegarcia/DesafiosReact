@@ -1,0 +1,63 @@
+.cardPosition {
+    top: 120px;
+    width: 250px;
+    height: 80px;
+}
+.cardbody{
+    padding: 0px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-online{
+    background-color: #064879;
+    color: #fff;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.card-offline{
+    background-color: #F0F0F0;
+    color: #A0A0A0;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.text-bottom {
+    color: #fff;
+    font-weight: bold;
+}
+
+.icon{
+    width: 26px;
+}
+
+.cards{
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer-online{
+    background-color:#0FDDAF;
+    height: 25px;
+}
+
+
+.footer-offline{
+    background-color: #A0A0A0;
+    height: 25px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 50%);
+    /*Especificando posiciones de las areas*/
+    grid-template-areas: "clock profile";
+  }
+  .centercolumn{
+    padding-left:100px;
+    padding-right:100px;
+    text-align: center;
+  }

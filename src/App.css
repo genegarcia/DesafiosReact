@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 5vmin;
+  position: relative;
+  top: 60px;
+  float: top;
+  
+}
+
+.container{
+  margin-top: -50px;
+}

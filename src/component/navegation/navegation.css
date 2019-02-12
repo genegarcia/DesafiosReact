@@ -1,0 +1,13 @@
+.navbar {
+    top: 100px;
+    background-color: #064879;
+}
+.custom-navbar{
+    height: 60px;
+}
+
+.input-navbar{
+    margin-top: 15px;
+    width: 500px;
+    margin-left: 35px;
+}
